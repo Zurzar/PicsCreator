@@ -56,11 +56,10 @@ This project is designed for those who value privacy, speed, and full control ov
 
 | Component | Technology |
 |-----------|------------|
-| Language & Platform | C#, .NET 6 / 7, WPF |
+| Language & Platform | C#, .NET 8, WPF |
 | Image Generation | [StableDiffusion.NET](https://github.com/DarthAffe/StableDiffusion.NET) (wrapper around stable‑diffusion.cpp) |
 | Image Manipulation | HPPH |
 | Local LLM for Prompts | LLamaSharp (wrapper around llama.cpp) + GGUF models |
-| Licensing | VMProtect SDK (activation & HWID) |
 | Presets | XML serialization |
 
 ---
@@ -88,7 +87,6 @@ This project is designed for those who value privacy, speed, and full control ov
    - `LLamaSharp`  
    - `LLamaSharp.Backend.Cpu` or `LLamaSharp.Backend.Cuda12`  
    - `HPPH`  
-   - `VMProtect` (for activation)  
 
    Run `dotnet restore` if needed.
 
@@ -166,7 +164,6 @@ This project uses the following libraries and tools:
 - [StableDiffusion.NET](https://github.com/DarthAffe/StableDiffusion.NET) — core generation library.
 - [LLamaSharp](https://github.com/SciSharp/LLamaSharp) — GGUF model integration.
 - [HPPH](https://github.com/Helzburger/HPPH) — image manipulation.
-- [VMProtect](https://vmpsoft.com/) — protection and activation.
 - [Prompt Fungineer v2](https://huggingface.co/treadon/prompt-fungineer-v2) — prompt enhancement model (GGUF conversion by mradermacher).
 
 Thanks to the community for these excellent tools!
@@ -187,6 +184,3 @@ See the `LICENSE` file for details.
 
 - Author: **ZugZang**  
 - Website: [shoppy.gg/@ZugZang](https://shoppy.gg/@ZugZang)  
-- GitHub: [your-profile](https://github.com/your-username)
-
-For any questions, please open an **Issue** or send an email.
