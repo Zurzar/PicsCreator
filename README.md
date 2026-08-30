@@ -1,6 +1,6 @@
 # 🖼️ PicsCreator — Local Stable Diffusion Image Generator
 
-**PicsCreator** is a desktop WPF application (.NET 6+) that allows you to generate images using **Stable Diffusion** entirely offline on your own computer.  
+**PicsCreator** is a desktop WPF application (.NET 8+) that allows you to generate images using **Stable Diffusion** entirely offline on your own computer.  
 It supports **SDXL**, **LoRA**, **Image‑to‑Image**, **batch generation**, and includes a built‑in **AI prompt enhancer** (based on a local LLM) to create high‑quality prompts without manual effort.
 
 This project is designed for those who value privacy, speed, and full control over generation — everything runs locally, without cloud services.
@@ -18,27 +18,14 @@ This project is designed for those who value privacy, speed, and full control ov
 - **Image‑to‑Image**  
   Load a source image and modify it with a configurable strength slider. Dimensions are auto‑filled.
 
-- **Multiple LoRA Support (up to 4)**  
+- **LoRA Support**  
   Each LoRA block has its own path and weight. The program automatically adds them to the generation parameters.
-
-- **Batch Generation**  
-  Set the number of images (e.g., 20) — the program will generate them sequentially, save them to the `Images` folder, and show progress.
-
-- **AI Prompt Enhancement (local)**  
-  Using the **prompt‑fungineer‑v2** (GGUF) model, you can:
-  - **Enhance** a short prompt (Enhance button).
-  - **Generate a random** prompt (Roulette button).
-  - **Generate an adult (18+)** prompt (🔞 18+ button).
-  - All completions happen locally, without internet.
 
 - **Preset Management**  
   Save frequently used positive and negative prompts in XML files and load them via dropdown lists.
 
 - **Watermark**  
   The free version adds a subtle watermark with a link to the author's site; the Pro version removes it.
-
-- **Pro Activation**  
-  A built‑in activation window with HWID and license key (using VMProtect SDK).
 
 ---
 
@@ -47,8 +34,6 @@ This project is designed for those who value privacy, speed, and full control ov
 *(Place screenshots in the `Screenshots` folder and link them here)*
 
 ![Main Window](2026-08-10_231752.png)
-![Activation Window](Screenshots/activation.png)
-![Generation Example](Screenshots/generation_example.png)
 
 ---
 
@@ -67,46 +52,14 @@ This project is designed for those who value privacy, speed, and full control ov
 ## ⚙️ System Requirements
 
 - OS: Windows 10 / 11 (64‑bit)
-- .NET Runtime 6.0 or higher
+- .NET Runtime 8.0 or higher
 - GPU with CUDA support (recommended) or CPU (slower but works)
 - RAM: at least 8 GB (12+ GB recommended for SDXL)
 - Free disk space: ~5–10 GB for models and LoRAs
 
 ---
 
-## 📥 Installation & Build
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/your-username/PicsCreator.git
-   cd PicsCreator
-   ```
-
-2. **Restore NuGet packages** (they are already listed in the `.csproj`):  
-   - `StableDiffusion.NET`  
-   - `LLamaSharp`  
-   - `LLamaSharp.Backend.Cpu` or `LLamaSharp.Backend.Cuda12`  
-   - `HPPH`  
-
-   Run `dotnet restore` if needed.
-
-3. **Download model files**  
-   - Place model files (e.g., `juggernautXL_ragnarok.safetensors`) into the `Models/` folder.  
-   - For the AI prompt enhancer, download a GGUF model (e.g., [prompt-fungineer-v2.Q4_K_M.gguf](https://huggingface.co/mradermacher/prompt-fungineer-v2-GGUF)) and place it in the same `Models/` folder.
-
-4. **Configure licensing (optional)**  
-   If using VMProtect, create a `key/license.key` file with your license key (or a developer key). For the free version, you can skip activation.
-
-5. **Build the solution**  
-   Open `PicsCreator.sln` in Visual Studio and build (Release configuration).
-
----
-
 ## 🖥️ Usage
-
-### Launch & Activation
-- On first startup, the program checks for a license key in `key/license.key`.  
-- If the key is missing or invalid, the activation window will appear, where you can copy your HWID and send it to the developer to obtain a key.
 
 ### Loading a Model
 - Click **«Browse»** and select a model file (`.safetensors` or `.gguf`).  
@@ -115,7 +68,7 @@ This project is designed for those who value privacy, speed, and full control ov
 ### Adjusting Parameters
 - Set width, height, steps, CFG scale.  
 - Optionally set a seed (leave empty for random).  
-- Select up to 4 LoRAs by providing their paths and weights.  
+- Select up to LoRA by providing their paths and weights.  
 - For Image‑to‑Image, load an initial image and adjust the **Strength** slider.
 
 ### Generation
@@ -127,11 +80,6 @@ This project is designed for those who value privacy, speed, and full control ov
 ### Batch Generation
 - In the **Count** field, enter the number of images (e.g., 5).  
 - Click generate — the program will create all images, display the first one, and notify you about the saved files in the `Images` folder.
-
-### AI Prompt Enhancement (local)
-- **Enhance** — expands a short description into a detailed prompt (preserving the original style).  
-- **Roulette** — generates a completely random prompt for inspiration.  
-- **18+** — generates a romantic/artistic sensual prompt.
 
 ### Saving
 - Click **«Save Image»** to save the current image (with watermark in the free version).  
