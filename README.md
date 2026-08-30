@@ -53,7 +53,7 @@ This project is designed for those who value privacy, speed, and full control ov
 
 - OS: Windows 10 / 11 (64‑bit)
 - .NET Runtime 8.0 or higher
-- GPU with CUDA support (recommended) or CPU (slower but works)
+- GPU with CUDA support (recommended 6+ GB) or CPU (slower but works)
 - RAM: at least 8 GB (12+ GB recommended for SDXL)
 - Free disk space: ~5–10 GB for models and LoRAs
 
