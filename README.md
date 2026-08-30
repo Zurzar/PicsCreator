@@ -92,12 +92,14 @@ This project is designed for those who value privacy, speed, and full control ov
 - **Free version**  
   - Watermark on images.  
   - Limited to 1 LoRA at a time.  
-  - No batch generation.  
+  - No batch generation.
+  - No Limited, Free.
 
 - **Pro version** (Premium)  
   - No watermark.  
   - Up to 2 simultaneous LoRAs.  
-  - All AI features (Enhance, Roulette).  
+  - All AI features (Enhance, Roulette).
+  - No Limited. 
 
 To purchase a Pro key, visit [shoppy.gg/@ZugZang](https://shoppy.gg/@ZugZang).
 
