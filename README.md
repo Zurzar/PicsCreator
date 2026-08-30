@@ -33,8 +33,6 @@ This project is designed for those who value privacy, speed, and full control ov
 
 ## 🖼️ Screenshots
 
-*(Place screenshots in the `Screenshots` folder and link them here)*
-
 ![Main Window](2026-08-30_093448.jpg)
 
 ---
