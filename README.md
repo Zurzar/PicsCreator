@@ -61,7 +61,7 @@ This project is designed for those who value privacy, speed, and full control ov
 
 ---
 
-🔞 **18+ ONLY**: PicsCreator uses AI models capable of generating mature and potentially inappropriate content depending on the selected model, LoRA, and prompt. To ensure responsible use, the application **includes a built-in NSFW Content Filter** with over 500+ terms and expressions for blocking inappropriate content, including explicit sexual material, profanity, hate speech, violence, drug, discrimination, and illegal activities.
+🔞 **18+ ONLY**: PicsCreator uses AI models capable of generating mature and potentially inappropriate content depending on the selected model, LoRA, and prompt. To ensure responsible use, the application **includes a built-in NSFW [https://github.com/civitai/civitai/tree/main/src/utils/metadata/lists) (Content Filter)** with over 500+ terms and expressions for blocking inappropriate content, including explicit sexual material, profanity, hate speech, violence, drug, discrimination, and illegal activities.
 
 However, no filter is 100% foolproof. If you discover any bypasses, loopholes, or missed terms, please report them immediately. The author is committed to continuously expanding and improving the filter to ensure maximum safety for all users.
 
