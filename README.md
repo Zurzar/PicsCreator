@@ -59,6 +59,20 @@ This project is designed for those who value privacy, speed, and full control ov
 
 ---
 
+## Installation Quick Guide:
+
+- Install the NVIDIA latest graphics driver. (download from NVIDIA).
+- Install NVIDIA CUDA 12.x (Install the required NVIDIA CUDA Toolkit version). (download from NVIDIA).
+- Install NVIDIA cuDNN (Deep Neural Network library). (download from NVIDIA).
+- Install .NET 8 SDK runtime/SDK components (download from Microsoft).
+- Install Visual C++ Redistributable (recommended, download from Microsoft).
+
+For AMD Radeon / Intel GPU users: the Vulkan backend should work in theory, but this has not been tested on Radeon or Intel hardware. The application will attempt to auto-detect Vulkan support. For NVIDIA owners, the steps above are fully tested and recommended.
+
+Restart the application after installation.
+
+---
+
 🔞 **18+ ONLY**: PicsCreator uses AI models capable of generating mature and potentially inappropriate content depending on the selected model, LoRA, and prompt. To ensure responsible use, the application **includes a built-in NSFW Content Filter** with over 500+ terms and expressions for blocking inappropriate content, including explicit sexual material, profanity, hate speech, violence, drug, discrimination, and illegal activities.
 
 The filter is based on the comprehensive blacklist from the **Civitai metadata lists** and has been extended with additional terms for maximum protection.
