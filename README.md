@@ -3,6 +3,8 @@
 **PicsCreator** is a desktop WPF application (.NET 8+) that allows you to generate images using **Stable Diffusion** entirely offline on your own computer.  
 It supports **SDXL**, **LoRA**, **Image‑to‑Image**, **batch generation**, and includes a built‑in **AI prompt enhancer** (based on a local LLM) to create high‑quality prompts without manual effort.
 
+**Love Stable Diffusion but hate ComfyUI?** That is exactly the problem PicsCreator solves. While other tools force you to wrestle with Python, CUDA, terminals, node graphs, and endless configuration files, PicsCreator offers a clean, focused interface. You don’t need to be a developer — just download, point to your model, write your prompt, and generate. No painful setup, no complex workflows, no reading GitHub issues for hours. It’s the local AI image studio for people who want results, not a second job learning the tool.
+
 This project is designed for those who value privacy, speed, and full control over generation — everything runs locally, without cloud services.
 
 ---
