@@ -35,7 +35,7 @@ This project is designed for those who value privacy, speed, and full control ov
 
 *(Place screenshots in the `Screenshots` folder and link them here)*
 
-![Main Window](2026-08-10_231752.png)
+![Main Window](2026-08-30_093448.jpg)
 
 ---
 
@@ -61,9 +61,9 @@ This project is designed for those who value privacy, speed, and full control ov
 
 ---
 
-🔞 **18+ ONLY**: PicsCreator uses **AI models** capable of generating mature and potentially inappropriate content depending on the selected model, LoRA and prompt. Users are solely responsible for generated content and its use. The author assumes no responsibility for unlawful or inappropriate use of the software.
+🔞 **18+ ONLY**: PicsCreator uses AI models capable of generating mature and potentially inappropriate content depending on the selected model, LoRA, and prompt. To ensure responsible use, the application **includes a built-in NSFW Content Filter** with over 500+ terms and expressions for blocking inappropriate content, including explicit sexual material, profanity, hate speech, violence, drug, discrimination, and illegal activities.
 
-Use PicsCreator responsibly and at your own risk.
+Prompts containing blocked content are automatically rejected or cleaned before generation.
 
 ---
 
