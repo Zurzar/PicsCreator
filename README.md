@@ -96,10 +96,8 @@ This project is designed for those who value privacy, speed, and full control ov
 
 - **Pro version** (Premium)  
   - No watermark.  
-  - Up to 4 simultaneous LoRAs.  
-  - Unlimited batch generation.  
-  - All AI features (Enhance, Roulette, 18+).  
-  - Priority support.
+  - Up to 2 simultaneous LoRAs.  
+  - All AI features (Enhance, Roulette).  
 
 To purchase a Pro key, visit [shoppy.gg/@ZugZang](https://shoppy.gg/@ZugZang).
 
