@@ -46,7 +46,7 @@ This project is designed for those who value privacy, speed, and full control ov
 
 *(Place screenshots in the `Screenshots` folder and link them here)*
 
-![Main Window](Screenshots/main_window.png)
+![Main Window](2026-08-10_231752.png)
 ![Activation Window](Screenshots/activation.png)
 ![Generation Example](Screenshots/generation_example.png)
 
