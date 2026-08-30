@@ -59,7 +59,7 @@ This project is designed for those who value privacy, speed, and full control ov
 
 ---
 
-## Installation Quick Guide:
+## ⚙️ Installation Quick Guide:
 
 - Install the NVIDIA latest graphics driver. (download from NVIDIA).
 - Install NVIDIA CUDA 12.x (Install the required NVIDIA CUDA Toolkit version). (download from NVIDIA).
