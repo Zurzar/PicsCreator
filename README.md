@@ -130,3 +130,5 @@ See the `LICENSE` file for details.
 
 - Author: **ZugZang**  
 - Website: [shoppy.gg/@ZugZang](https://shoppy.gg/@ZugZang)  
+
+#PicsCreator #StableDiffusion #LocalAI #AIImageGenerator #ImageGeneration #TextToImage #ImageToImage #SDXL #LoRA #MultipleLoRA #BatchGeneration #PromptEnhancer #AIPrompts #LocalLLM #GGUF #CUDA #OfflineAI #PrivateAI #18PlusAI #NoSubscriptions
