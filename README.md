@@ -61,6 +61,10 @@ This project is designed for those who value privacy, speed, and full control ov
 
 ---
 
+🔞 **18+ ONLY**: PicsCreator uses **AI models** capable of generating mature and potentially inappropriate content depending on the selected model, LoRA and prompt. Users are solely responsible for generated content and its use. The author assumes no responsibility for unlawful or inappropriate use of the software.
+
+---
+
 ## 🖥️ Usage
 
 ### Loading a Model
